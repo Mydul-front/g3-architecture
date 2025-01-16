@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+     margin:0;
+     padding:0;
+     font-family: "Open Sans", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+}
+.hero{
+     background-color: rgba(250, 235, 215, 0.76);
+     height:1100px;
+}
+.container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin:0px 50px 10px 50px;
+}
+.list-items{
+     display:flex;
+     gap:30px;
+     color:rgba(0, 0, 0, 0.541);
+
+}
+.list-items li{
+     list-style: none;
+}
+.list-items a{
+     text-decoration: none;
+}
+.container h1{
+     font-size: 2.2rem;
+     
+}
+.brand{
+     text-align: center;
+     margin:10px auto;
+}
+.brand h2{
+     font-size: 2.2rem;
+     color:black;
+     margin-top: 20px;
+     
+}
+.brand p{
+     font-size: 0.9rem;
+     color:rgba(0, 0, 0, 0.575);
+     margin-top: 20px;
+}
+.btn{
+     background-color: rgba(255, 166, 0, 0.877);
+     padding:10px;
+     color:white;
+     border:none;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+.brand-img{
+     width:100%;
+     margin:10px 50px;
+}
+.main-container{
+     display:flex;
+     margin:50px 100px 50px 100px;
+     justify-content: center;
+     align-items: center;
+     gap:20px;
+     
+}
+.img-container{
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+}
+.text-container{
+     margin-left: 30px;
+
+}
+.text-container .mydul{
+     font-size:2.2rem;
+     color:rgba(0, 0, 0, 0.644);
+}
+.text-container #miran{
+     font-size: 2.2rem;
+     font-weight:bold;
+     color:black;
+}
+.text-container .mim{
+     color:orangered;
+}
