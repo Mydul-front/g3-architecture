@@ -27,6 +27,8 @@
 }
 .list-items a{
      text-decoration: none;
+     color:rgba(0, 0, 0, 0.623);
+     font-weight: bold;
 }
 .container h1{
      font-size: 2.2rem;
@@ -145,7 +147,7 @@
      width:50%;
      
 }
-.list-propertise .list, .list1{
+.list-propertise .list{
      border:1px solid orange;
      border-radius: 5px;
      padding:40px;
@@ -157,4 +159,32 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+}
+.hero4{
+
+}
+.spon-text{
+     text-align: center;
+     
+}
+.spon{
+     margin:20px auto;
+     font-size: 2.2rem;
+     font-weight: bold;
+}
+.spon-img{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin:30px auto;
+}
+.spon-img img{
+     filter: grayscale(100%);
+}
+.footer{
+     background-color: antiquewhite;
+     border-radius: 5px;
+     padding:25px;
+     text-align: center;
+     margin:40px 40px;
 }
