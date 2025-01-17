@@ -87,3 +87,49 @@
 .text-container .mim{
      color:orangered;
 }
+.hero2{
+     margin:50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap:10px;
+}
+.features{
+     font-size: 2.2rem;
+     font-weight: bold;
+     color:black;
+     /* width:30%; */
+     border-left:5px solid orangered;
+     padding-left: 20px;
+     
+     
+}
+/* .features span{
+     padding-left: 20px;
+} */
+.features-para{
+     font-size: 0.9rem;
+     color:rgba(0, 0, 0, 0.575);
+     /* width: 40%; */
+
+}
+.box1, .box2, .box3, .box4{
+     background-color: rgba(137, 43, 226, 0.178);
+     border:none;
+     padding:10px;
+     box-shadow:5px 5px 5px 5px rgba(0, 0, 255, 0.39);
+     margin:20px auto;
+
+}
+.container-img-sec .experience{
+     background-color: orangered;
+     color:white;
+     border-radius: 5px;
+     display:inline-block;
+     padding:30px;
+     margin-top: -120px;
+     margin-left: -80px;
+}
+.experience h3{
+     font-size: 2rem;
+}
